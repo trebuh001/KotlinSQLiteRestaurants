@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/main_background">
+
+<ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/food"
+
+/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Restaurants"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:textSize="40sp"
+        app:fontFamily="@font/muli_bold"/>
+    <EditText
+            android:id="@+id/etAddNewRestaurant"
+            android:background="@color/et_background"
+            android:layout_marginHorizontal="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:hint="add new restaurant..."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+    />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/etAddNewRestaurant"
+            android:text="ADD Restaurant"
+            android:layout_marginTop="20dp"
+            android:onClick="Add_restaurant"
+            android:textColor="#fff"
+    />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="SHOW LIST!"
+            android:layout_marginBottom="0dp"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:onClick="show_list"
+            android:layout_alignParentBottom="true"
+    />
+
+
+
+
+</RelativeLayout>
