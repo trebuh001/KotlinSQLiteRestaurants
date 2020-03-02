@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kotlin1</string>
+    <!--       activity_main.xml  -->
+    <string name="title_activity_main">Moje restauracje</string>
+    <string name="hint_restaurant_activity_main">Dodaj nową restaurację</string>
+    <string name="add_button_restaurant_activity_main">DODAJ RESTAURACJĘ</string>
+    <string name="show_list_button_restaurant_activity_main">POKAŻ LISTĘ</string>
+    <!--       add_dish.xml  -->
+    <string name="title_add_dish">Dodaj danie do Menu</string>
+    <string name="add_name_of_dish">Dodaj nazwę dania...</string>
+    <string name="add_ingredients_of_dish">Dodaj składniki dania...</string>
+    <string name="add_price_of_dish">Dodaj cenę dania...</string>
+    <string name="add_button_dish_to_menu">DODAJ DANIE DO MENU</string>
+    <!--       activity_update__menu.xml  -->
+    <string name="title_update_menu">Edytuj danie w Menu</string>
+    <string name="edit_name_of_dish">Edytuj nazwę dania...</string>
+    <string name="edit_ingredients_of_dish">Edytuj składniki dania...</string>
+    <string name="edit_price_of_dish">Edytuj cenę dania...</string>
+    <string name="edit_button_update_dish">Edytuj danie</string>
+    <string name="title_update_restaurant">Edytuj Restaurację</string>
+    <string name="edit_name_of_restaurant">Edytuj nazwę restauracji...</string>
+    <string name="txt_address_below">Edytuj Adres Restauracji poniżej.</string>
+    <string name="edit_city_of_restaurant">Edytuj nazwę miasta dla restauracji...</string>
+    <string name="edit_street_of_restaurant">Edytuj nazwę ulicy dla restauracji...</string>
+    <string name="edit_streetnumber_of_restaurant">Edytuj numer ulicy dla restauracji...</string>
+    <string name="txt_phone_below">Edytuj numer kontaktowy do restauracji poniżej</string>
+    <string name="edit_phone_of_restaurant">Edytuj numer kontaktowy do restauracji...</string>
+    <!---          lo_menu_items.xml  -->
+    <string name="item_dish_name">Nazwa Dania: </string>
+
+
+    <!--           OTHERS  -->
+    <string name="sure_delete">Jesteś pewien, że chcesz usunąć: </string>
+    <string name="is_deleted_restaurant">została usunięta</string>
+    <string name="is_deleted_dish">zostało usunięte</string>
+    <string name="restaurant_found">Znalezionych restauracji:</string>
+    <string name="dishes_found">Znalezionych dań:</string>
+    <string name="dish_not_found">Nie znaleziono dań w tym Menu</string>
+    <string name="restaurant_not_found">Nie znaleziono restauracji</string>
+
+    <string name="restaurant_added">Dodano restaurację</string>
+    <string name="dish_added">Dodano danie</string>
+    <string name="restaurant_updated">Edytowano restaurację</string>
+    <string name="dish_updated">Edytowano danie</string>
+    <string name="updating_error">Błąd edytowania</string>
+
+    <string name="update">Edytuj</string>
+    <string name="delete">Usuń</string>
+    <string name="menu">Menu</string>
+    <string name="ingredients">Składniki: </string>
+    <string name="price">Cena: </string>
+    <string name="phone">Telefon: </string>
+    <string name="address">Adres: </string>
+    <string name="restaurant">Restauracja:</string>
+    <string name="dish">Danie:</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="warning">Ostrzeżenie</string>
+
+
+
+</resources>

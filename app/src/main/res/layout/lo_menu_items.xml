@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:background="@color/main_background">
+    <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+    android:weightSum="5"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="5dp">
+        <TextView
+                android:id="@+id/txt_dishName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:textSize="18sp"
+        />
+        <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"/>
+
+        <TextView
+                android:id="@+id/txt_dishIngredients"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.8"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:lines="3"
+                android:layout_gravity="center_vertical"/>
+        <TextView
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"/>
+        <Button
+                android:id="@+id/btnUpdateDish"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/update"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_weight="1.3"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp">
+
+
+        <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:textSize="18sp"
+
+        />
+        <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"/>
+
+        <TextView
+                android:id="@+id/txt_dishPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.8"
+                android:textStyle="bold"
+                android:textSize="18sp"
+
+                android:layout_gravity="center_vertical"/>
+        <TextView
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"/>
+        <Button
+                android:id="@+id/btnDeleteDish"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_weight="1.3"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/recycler_line">
+        <TextView android:layout_width="match_parent"    android:layout_marginBottom="5dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
