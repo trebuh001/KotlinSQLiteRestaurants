@@ -106,7 +106,7 @@
             android:textSize="20sp"
             android:inputType="phone"
             android:layout_marginTop="20dp"
-            android:hint=""
+            android:hint="@string/edit_phone_of_restaurant"
             android:layout_centerHorizontal="true"
     />
 
