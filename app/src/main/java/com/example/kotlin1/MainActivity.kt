@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Restaurant_List.dbHandler = DBHandler(this,null,null,1)
+        Restaurant_List.dbHandler = DBHandler(this,null,null,6)
 
 
 

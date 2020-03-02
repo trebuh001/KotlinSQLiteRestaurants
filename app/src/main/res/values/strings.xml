@@ -1,3 +1,62 @@
 <resources>
     <string name="app_name">Kotlin1</string>
+    <!--       activity_main.xml  -->
+    <string name="title_activity_main">My restaurants</string>
+    <string name="hint_restaurant_activity_main">add new restaurant...</string>
+    <string name="add_button_restaurant_activity_main">ADD RESTAURANT</string>
+    <string name="show_list_button_restaurant_activity_main">SHOW LIST</string>
+    <!--       activity_add_dish.xml  -->
+    <string name="title_add_dish">Add dish to Menu</string>
+    <string name="add_name_of_dish">Add name of dish...</string>
+    <string name="add_ingredients_of_dish">Add ingredients of dish...</string>
+    <string name="add_price_of_dish">Add price of dish...</string>
+    <string name="add_button_dish_to_menu">ADD DISH TO MENU</string>
+    <!--       activity_update__menu.xml  -->
+    <string name="title_update_menu">Update dish in Menu</string>
+    <string name="edit_name_of_dish">Edit name of dish...</string>
+    <string name="edit_ingredients_of_dish">Edit ingredients of dish...</string>
+    <string name="edit_price_of_dish">Edit price of dish...</string>
+    <string name="edit_button_update_dish">UPDATE DISH</string>
+    <!--       activity_update_restaurant.xml   -->
+    <string name="title_update_restaurant">Update Restaurant</string>
+    <string name="edit_name_of_restaurant">Edit name of restaurant...</string>
+    <string name="txt_address_below">Edit Restaurant address below.</string>
+    <string name="edit_city_of_restaurant">Edit city name of restaurant...</string>
+    <string name="edit_street_of_restaurant">Edit street name of restaurant...</string>
+    <string name="edit_streetnumber_of_restaurant">Edit street number of restaurant...</string>
+    <string name="txt_phone_below">Edit Restaurant phone number below.</string>
+    <string name="edit_phone_of_restaurant">Edit phone number of restaurant...</string>
+    <!---          lo_menu_items.xml  -->
+    <string name="item_dish_name">Dish Name:</string>
+
+
+    <!--           OTHERS  -->
+    <string name="sure_delete">Are You sure to delete:</string>
+    <string name="is_deleted_restaurant">is deleted</string>
+    <string name="is_deleted_dish">is deleted</string>
+    <string name="restaurant_found">Restaurant found</string>
+    <string name="dishes_found">Dishes found</string>
+    <string name="dish_not_found">Dishes in that Menu - not found</string>
+    <string name="restaurant_not_found">Restaurants - not found</string>
+
+    <string name="restaurant_added">Restaurant added</string>
+    <string name="dish_added">Dish added</string>
+    <string name="restaurant_updated">Restaurant updated</string>
+    <string name="dish_updated">Dish updated</string>
+    <string name="updating_error">Updating Error</string>
+
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="menu">Menu</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="price">Price:</string>
+    <string name="phone">Phone:</string>
+    <string name="address">Address:</string>
+    <string name="restaurant">Restaurant:</string>
+    <string name="dish">Dish:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="warning">Warning</string>
+
+
 </resources>

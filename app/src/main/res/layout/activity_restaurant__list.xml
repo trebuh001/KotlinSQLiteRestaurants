@@ -8,14 +8,22 @@
         tools:context=".Restaurant_List">
 <TextView android:id="@+id/restaurant_list_space"
           android:layout_width="match_parent"
+          android:layout_height="wrap_content"
           android:background="@color/main_background"
-          android:layout_height="10dp"/>
+          android:text="@string/title_activity_main"
+          android:fontFamily="@font/muli_bold"
+          android:textSize="30sp"
+          android:gravity="center"
+          android:layout_marginTop="5dp"
+          />
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv"
             android:layout_below="@id/restaurant_list_space"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+    >
 
     </androidx.recyclerview.widget.RecyclerView>
 

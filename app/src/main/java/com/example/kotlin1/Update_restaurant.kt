@@ -53,15 +53,14 @@ class Update_restaurant : AppCompatActivity() {
         {
 
             try {
-                Restaurant_List.dbHandler = DBHandler(this,null,null,1)
+                Restaurant_List.dbHandler = DBHandler(this,null,null,6)
                 Restaurant_List.dbHandler.updateRestaurant(restaurantName = etUpdate_Restaurant_Name.text.toString(),id = restaurant_ID,
                     restaurantCity = etUpdate_Restaurant_City.text.toString(),restaurantStreet = etUpdate_Restaurant_Street.text.toString(),
                     restaurantStreetNumber = etUpdate_Restaurant_Street_Number.text.toString(),restaurantPhone = etUpdate_Restaurant_Phone.text.toString())
-                Toast.makeText(applicationContext,"Restaurant updated",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext,this.getString(R.string.restaurant_updated),Toast.LENGTH_SHORT).show()
             }catch(e : Exception)
             {
-                Toast.makeText(applicationContext,"Updating Error",Toast.LENGTH_SHORT).show()
-            }
+                Toast.makeText(applicationContext,this.getString(R.string.updating_error), Toast.LENGTH_SHORT).show()            }
 
             var intent= Intent(this,Restaurant_List::class.java)
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
