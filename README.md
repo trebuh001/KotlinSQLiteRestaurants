@@ -4,7 +4,7 @@ Restaurants Application in Android Studio based on SQLite Database.
 # Applucation installation
 
 You can download installation file of application from this link: 
-![Download installation file](https://github.com/trebuh001/KotlinSQLiteRestaurants/tree/master/Kotlin%20install/KotlinSQLiteRestaurants_install.apk)
+![Download installation file](https://github.com/trebuh001/KotlinSQLiteRestaurants/tree/master/Kotlin%20install/KotlinSQLiteRestaurants_install.apk). (You must click Download button on this page).
 
 # Features below
 
